@@ -4,3 +4,5 @@
 * Dynamic solution:
 	* It will cost 44 ms in **O(s.length() * p.length())** space complexity.
 	* It will cost 55 ms in **O(2 * p.length())** space complexity.
+	* It will cost 44 ms by traversing all **p** for each element in **s** within **O(p.length())** space complexity.
+	* It will cost 46 ms by traversing all **s** for each element in **p** within **O(p.length())** space complexity.
